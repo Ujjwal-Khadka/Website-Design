@@ -1,0 +1,232 @@
+/*main body*/
+body{
+    margin:0;
+    padding: 0;
+    background-image: url("../image/wireless-keyboard-colorful-figures.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    backdrop-filter: blur(5px);
+    
+    /*header*/
+    
+}
+.header {
+    font-family: 'New Times Roman','Comic Sans MS',Arial, sans-serif;
+    font-size: 200%;
+    text-align: center; 
+    color:rgb(27, 7, 205);
+   font-weight: bold;
+    /*menu*/
+    
+}
+.menu{
+  height:10%; 
+  width:100%;
+  padding:2%;
+  gap:2%;
+  display:flex;
+  flex-wrap:wrap;
+    background-color: rgb(9, 0, 170);
+}
+a{
+    text-decoration: none;
+    font-family: 'Roboto','Comic Sans MS',Arial, sans-serif;
+    font-size:100%;
+    color: white;
+    border-radius: 20px;
+    padding: 20px;
+}
+a:hover{
+text-decoration: none;
+font-size:100%;
+color:rgb(255, 255, 255);
+background-color: rgb(41, 200, 228);
+}
+/*home page*/
+.welcome-section h1{
+    font-family: 'Nunito','Comic Sans MS',Arial, sans-serif;
+    text-align: center;
+
+}
+ .welcome-section p{
+    font-family: 'Nunito','Comic Sans MS',Arial, sans-serif;
+    font-size: 110%;
+    text-align:center;
+ }
+ .features-section{
+    
+     display: flex;
+     flex-wrap: wrap;
+     gap: 2%;
+     justify-content: center;
+     border-radius: 20px;
+     
+ }
+ .feature-card{
+     background: #e0713e;
+     height: 10%;
+     width:25%;
+     min-width: 220px;
+     font-family: 'Poppins','Nunito','Comic Sans MS',Arial, sans-serif;
+     border-radius: 20px;
+     padding-left: 20px;
+    
+ }
+ .feature-card:hover{
+    transform: translateY(-5%);
+    box-shadow: 0 0 20px #e0713e;
+ }
+ .about-us-section h2{
+ text-align: center;
+ font-family: 'Fredoka One','Nunito','Comic Sans MS',Arial, sans-serif;
+ font-size: 155%;
+ }
+ .about-us-section p{
+     text-align: center;
+     font-family: 'Nunito','Comic Sans MS',Arial, sans-serif;
+     font-size: 120%;
+ }
+ /*About Us*/
+ .about-us h2{
+ font-family: 'Nunito','Comic Sans MS',Arial, sans-serif;
+ text-align: center;
+ font-size: 155%;
+ }
+ .about-us p{
+    text-align: center;
+     font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+     font-size: 125%;
+ }
+ .about-cards{
+    display: flex;
+     flex-wrap: wrap;
+     gap: 2%;
+     justify-content: center;
+     border-radius: 20px;
+ }
+ .about-card{
+     background: rgb(4, 200, 135);
+     height: 10%;
+     width:25%;
+     min-width: 220px;
+     font-family: 'Poppins','Nunito','Comic Sans MS',Arial, sans-serif;
+     text-align: center;
+     border-radius: 20px;
+     padding: 10px;
+ }
+ .about-card:hover{
+     transform: translateY(-3%);
+     box-shadow: 0 0 20px aqua;
+ }
+ 
+ /*Contact Us*/
+ .contact-section h2{
+font-family: 'Nunito','Comic Sans MS',Arial, sans-serif;
+ text-align: center;
+ font-size: 155%;
+ }
+ .contact-section p{
+     text-align: center;
+     font-family: 'Times New Roman', Times, serif;
+     font-size: 125%;
+ }
+ .contact-details{
+     display: flex;
+     flex-wrap: wrap;
+     gap: 2%;
+     justify-content: center;
+ }
+ .contact-item{
+    background: rgb(0, 0, 0);
+     height: 10%;
+     width:25%;
+     min-width: 220px;
+     font-family: 'Poppins','Nunito','Comic Sans MS',Arial, sans-serif;
+     text-align: center;
+     color: white;
+    padding: 10px;
+    border-radius: 20px;
+ }
+ .contact-item:hover{
+    transform: translateY(-3%);
+    box-shadow: 0 0 20px rgb(0, 0, 0);
+ }
+ .credits{
+     display: flex;
+     flex-wrap: wrap;
+     gap: 2%;
+     justify-content: center;
+     padding: 30px;
+ }
+ .Ujjwal{
+     background:white;
+     height: 80%;
+     width:30%;
+     min-width: 220px;
+     font-family: 'Poppins','Nunito','Comic Sans MS',Arial, sans-serif;
+     text-align: center;
+     color:black;
+     padding: 10px;
+     border-radius: 20px;
+ }
+ .Ujjwal:hover{
+    transform: translateY(-3%);
+    box-shadow: 0 0 20px rgb(212, 212, 212);
+    border-radius: 20px;
+ }
+ .Devraj{
+     background:white;
+     height: 80%;
+     width:30%;
+     min-width: 220px;
+     font-family: 'Poppins','Nunito','Comic Sans MS',Arial, sans-serif;
+     text-align: center;
+     color:black;
+     padding: 10px;
+     border-radius: 20px;
+ }
+ .Devraj:hover{
+    transform: translateY(-3%);
+    box-shadow: 0 0 20px rgb(212, 212, 212);
+    border-radius: 20px;
+ }
+ .Anmol{
+     background:white;
+     height: 80%;
+     width:30%;
+     min-width: 220px;
+     font-family: 'Poppins','Nunito','Comic Sans MS',Arial, sans-serif;
+     text-align: center;
+     color:black;
+     padding: 10px;
+     border-radius: 20px;
+ }
+ .Anmol:hover{
+    transform: translateY(-3%);
+    box-shadow: 0 0 20px rgb(212, 212, 212);
+    border-radius: 20px;
+ }
+ .Himesh{
+     background:white;
+     height: 80%;
+     width:30%;
+     min-width: 220px;
+     font-family: 'Poppins','Nunito','Comic Sans MS',Arial, sans-serif;
+     text-align: center;
+     color:black;
+     padding: 10px;
+     border-radius: 20px;
+ }
+ .Himesh:hover{
+    transform: translateY(-3%);
+    box-shadow: 0 0 20px rgb(212, 212, 212);
+    border-radius: 20px;
+ }
+ .insta{
+    color: rgb(206, 0, 144);
+    border-radius: 20px;
+ }
+ .facebook{
+    color: rgb(81, 81, 243);
+    border-radius: 20px;
+ }
