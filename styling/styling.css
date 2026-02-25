@@ -1,14 +1,10 @@
-/*main body*/
+
 body{
     margin:0;
     padding: 0;
     background-image: url("../image/wireless-keyboard-colorful-figures.jpg");
     background-size: cover;
     background-repeat: no-repeat;
-    
-    
-    /*header*/
-    
 }
 .header {
     font-family: 'New Times Roman','Comic Sans MS',Arial, sans-serif;
@@ -16,17 +12,17 @@ body{
     text-align: center; 
     color:rgb(27, 7, 205);
    font-weight: bold;
-    /*menu*/
     
 }
 .menu{
-  height:10%; 
+  height:7%; 
   width:100%;
   padding:2%;
   gap:2%;
   display:flex;
   flex-wrap:wrap;
-    background-color: rgb(9, 0, 170);
+  background-color: rgb(9, 0, 170);
+  position: fixed;
 }
 a{
     text-decoration: none;
@@ -36,13 +32,15 @@ a{
     border-radius: 20px;
     padding: 20px;
 }
+html {
+    scroll-behavior: smooth;
+}
 a:hover{
 text-decoration: none;
 font-size:100%;
 color:rgb(255, 255, 255);
 background-color: rgb(41, 200, 228);
 }
-/*home page*/
 .welcome-section h1{
     font-family: 'Nunito','Comic Sans MS',Arial, sans-serif;
     text-align: center;
@@ -86,7 +84,6 @@ background-color: rgb(41, 200, 228);
      font-family: 'Nunito','Comic Sans MS',Arial, sans-serif;
      font-size: 120%;
  }
- /*About Us*/
  .about-us h2{
  font-family: 'Nunito','Comic Sans MS',Arial, sans-serif;
  text-align: center;
@@ -119,7 +116,6 @@ background-color: rgb(41, 200, 228);
      box-shadow: 0 0 20px aqua;
  }
  
- /*Contact Us*/
  .contact-section h2{
 font-family: 'Nunito','Comic Sans MS',Arial, sans-serif;
  text-align: center;
